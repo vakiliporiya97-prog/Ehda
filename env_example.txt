@@ -1,0 +1,14 @@
+# این فایل رو کپی کنید به .env و مقادیر واقعی رو جایگزین کنید
+
+# یک رشته‌ی تصادفی و محرمانه برای امضای ورود کارکنان — با این دستور بسازیدش:
+# node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"
+JWT_SECRET=change-this-to-a-long-random-secret
+
+# نام کاربری و رمز عبور اولیه‌ی مدیر — فقط برای اولین اجرا
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=change-this-strong-password
+
+# پورت اجرای سرور (اکثر سرویس‌های هاست خودشون این رو ست می‌کنن)
+PORT=3000
+
+NODE_ENV=production
