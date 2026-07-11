@@ -6,7 +6,7 @@ JWT_SECRET=change-this-to-a-long-random-secret
 
 # نام کاربری و رمز عبور اولیه‌ی مدیر — فقط برای اولین اجرا
 ADMIN_USERNAME=admin
-ADMIN_PASSWORD=change-this-strong-password
+ADMIN_PASSWORD=changethis
 
 # پورت اجرای سرور (اکثر سرویس‌های هاست خودشون این رو ست می‌کنن)
 PORT=3000
